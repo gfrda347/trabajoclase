@@ -40,3 +40,24 @@ class TodoBook:
                     todo_count[tag] = todo_count[tag]
                 else:
                     todo_count[tag] = 1
+"""
+listas
+numeros = [1,2,3,4,5]
+print (numeros[0])el numero indica la posicion de la lista que se desea imprimir
+
+tuplas 
+nombres = ("juan","pedro", "maria")
+print nombres[0] el nombre es un elemento en una tupla y no puede ser modificado
+
+strings
+cadena ="hola mundo"
+print cadena[::-1] reversa del string
+
+diccionarios
+personas = {"nombre":"Juan", "apellido": "Perez"}
+print personas["nombre"] muestra los valores dentro del diccionario
+
+sets
+frutas = set(["manzana","pera"])
+frutas.add("naranja") agrega elementos al conjunto, los elementos son tratados como uno solo 
+"""
